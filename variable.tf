@@ -12,32 +12,32 @@ variable "tenant_id"{
 }
 
 variable "name_1"{
-  type=string
+#  type=string
   default="firstlinuxapp"
 }
 variable "name_2"{
-  type=string
+#  type=string
   default="secondlinuxapp"
 }
 variable "name_3"{
-  type=string
+#  type=string
   default="thirdlinuxapp"
 }
 
 variable "os_type"{
-  type=string
+#  type=string
   default="Linux"
 }
 
 variable "sku_name_1"{
-  type=string
+#  type=string
   default="P1v2"
 }
 variable "sku_name_2"{
-  type=string
+#  type=string
   default="EP1"
 }
 variable "sku_name_3"{
-  type=string
+#  type=string
   default="WS1"
 }
