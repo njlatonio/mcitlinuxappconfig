@@ -18,7 +18,9 @@ provider "azurerm"{
   tenant_id=var.tenant_id
 }
 
+/*
 resource "azurerm_resource_group" "azureresourcegroup" {
   name     = "MCIT_lab_session_2"
   location = "Canada Central"
 }
+*/
