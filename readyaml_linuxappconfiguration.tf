@@ -12,6 +12,12 @@ locals{
     ]
 ])
 }
+
+resource "azurerm_resource_group" "azureresourcegroup_linuxapp" {
+  name     = "MCIT_lab_session_linuxapp"
+  location = "Canada Central"
+}
+
 resource "azurerm_service_plan" "batcha06sp" {
   for_each            ={for sp in local.linux_app_list: "${sp.name}"=>sp }
   name                = each.value.name
