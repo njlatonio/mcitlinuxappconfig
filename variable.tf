@@ -24,10 +24,10 @@ variable "name_3"{
   default=thirdlinuxapp
 }
 
-variable "os_type"{
+#variable "os_type"{
 #  type=string
-  default=Linux
-}
+#  default=Linux
+#}
 
 variable "sku_name_1"{
 #  type=string
