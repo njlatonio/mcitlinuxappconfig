@@ -12,9 +12,11 @@ variable "tenant_id"{
 }
 
 variable "name_1"{
-#  type=string
+  type=string
   default="firstlinuxapp"
 }
+
+/*
 variable "name_2"{
 #  type=string
   default="secondlinuxapp"
@@ -41,3 +43,4 @@ variable "sku_name_3"{
 #  type=string
   default="WS1"
 }
+*/
