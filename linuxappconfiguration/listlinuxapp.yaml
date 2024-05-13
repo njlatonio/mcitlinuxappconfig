@@ -5,6 +5,6 @@ listoflinuxapp:
   - name: var.name_2 
     os_type: Linux
     sku_name: EP1
-  - name: var.name2   
+  - name: var.name_3   
     os_type: Linux
     sku_name: WS1
