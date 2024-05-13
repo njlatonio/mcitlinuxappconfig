@@ -1,10 +1,10 @@
 listoflinuxapp:
   - name: var.name_1    
-    os_type: var.os_type
+    os_type: Linux
     sku_name: var.sku_name_1
   - name: var.name_2  
-    os_type: var.os_type
+    os_type: Linux
     sku_name: var.sku_name_2
   - name: var.name_3    
-    os_type: var.os_type
+    os_type: Linux
     sku_name: var.sku_name_3
