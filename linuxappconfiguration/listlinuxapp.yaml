@@ -2,9 +2,9 @@ listoflinuxapp:
   - name: var.name_1   
     os_type: Linux
     sku_name: P1v2
-  - name: secondlinuxapp  
+  - name: var.name_2 
     os_type: Linux
     sku_name: EP1
-  - name: thirdlinuxapp    
+  - name: var.name2   
     os_type: Linux
     sku_name: WS1
