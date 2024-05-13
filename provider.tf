@@ -18,9 +18,8 @@ provider "azurerm"{
   tenant_id=var.tenant_id
 }
 
-/*
-resource "azurerm_resource_group" "azureresourcegroup" {
-  name     = "MCIT_lab_session_2"
+
+resource "azurerm_resource_group" "azureresourcegroup_linuxapp" {
+  name     = "MCIT_lab_session_linuxapp"
   location = "Canada Central"
 }
-*/
