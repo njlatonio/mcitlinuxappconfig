@@ -16,16 +16,17 @@ variable "name_1"{
   default="firstlinuxapp"
 }
 
-/*
+
 variable "name_2"{
-#  type=string
+  type=string
   default="secondlinuxapp"
 }
 variable "name_3"{
-#  type=string
+  type=string
   default="thirdlinuxapp"
 }
 
+/*
 #variable "os_type"{
 #  type=string
 #  default=Linux
