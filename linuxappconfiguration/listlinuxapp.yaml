@@ -1,5 +1,5 @@
 listoflinuxapp:
-  - name: var.name_1   
+  - name = var.name_1   
     os_type: Linux
     sku_name: P1v2
   - name: var.name_2 
