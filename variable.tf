@@ -10,3 +10,29 @@ variable "client_secret"{
 }
 variable "tenant_id"{
   type=string
+}
+variable "prefix"{
+ type=string
+ default="nichelle"
+}
+variable "account_tier"{
+  type=string
+  default="Standard"
+}
+variable "access_tier"{
+  type=string
+  default="Cool"
+}
+variable "account_replication_type"{
+  type=string
+  default="GRS"
+}
+variable "cross_tenant_replication_enabled"{
+ type=bool
+ default=false
+}
+
+variable "environment"{
+ type=string
+ default="staging"
+}
